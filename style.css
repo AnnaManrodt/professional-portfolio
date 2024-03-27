@@ -1,11 +1,20 @@
 
-
 body{
   background-image: url("imgs/sunflowers-8256666_1280.jpg");
+  background-size: cover;
+}
+
+header{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding-left:2%;
+  padding-right: 2%;
 }
 
 .try-it{
-  background-color: rgba(100, 100, 100, .8);
+  background-color: rgba(100, 100, 100, .4);
 height: 100%;
 width: 100%;
 
@@ -13,23 +22,47 @@ position: fixed;
 top:0;
 left:0;
 }
-h1{
-  position: relative;
-  color:white;
-  font-size:50px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
+
 nav{
   display: flex;
 position: relative;
 justify-content: end;
 gap: 10px;
 z-index: 100;
+font-size: 20px;
+color:whitesmoke;
+text-decoration: underline;
 }
 
 #profile{
   position: relative;
   max-width: 20%;
-  max-height: 20%;
+  max-height: 10%;
   z-index: 100;
+  border-radius: 100%;
+  
+}
+
+.main{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.content{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color:whitesmoke;
+}
+
+h1{
+  position: relative;
+  color:whitesmoke;
+  font-size:50px;
+}
+.collum{
+  display: flex;
+  flex-direction: column;
 }
