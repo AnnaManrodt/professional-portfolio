@@ -7,7 +7,7 @@ body {
 
 /* creates a gray screen over my background so it appreas lesss busy */
 .gray {
-  background-color: rgba(100, 100, 100, .4);
+  background-color: rgba(100, 100, 100, .8);
   height: 100%;
   width: 100%;
   position: fixed;
@@ -23,6 +23,7 @@ header {
   align-items: center;
   padding-left: 2%;
   padding-right: 2%;
+  font-family: "noto sans";
 }
 
 /* positions my nav tags where I want tem as well as pushes them infront of the gray screen */
@@ -53,6 +54,7 @@ h1 {
   position: relative;
   color: whitesmoke;
   font-size: 50px;
+  border-bottom: dotted 5px rgb(250, 248, 248); */
 }
 
 /* styles profile picture */
@@ -75,11 +77,38 @@ h1 {
   color: whitesmoke;
   flex-direction: column;
   margin-left: 10px;
+  font-size: 20px;
+ font-family: "noto sans";
+}
+
+.flex-imgs{
+  display: flex;
+  flex-direction: row;
+  min-height: 50px;
   
 }
 
 #prework {
-  display: flex;
+  
   max-width: 20%;
   max-height: 20%;
+  min-width:  50%;
+  min-height: 100%;
+}
+#homework-1{
+  
+ max-width: 10%;
+ max-height: 10%;
+ min-width: 40%;
+ min-height: 100%;
+}
+
+h2{
+  text-decoration: underline 2px; 
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
