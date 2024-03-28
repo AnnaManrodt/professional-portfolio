@@ -1,68 +1,85 @@
-
-body{
+/* this gives me my sunflower background im */
+body {
   background-image: url("imgs/sunflowers-8256666_1280.jpg");
   background-size: cover;
+
 }
 
-header{
+/* creates a gray screen over my background so it appreas lesss busy */
+.gray {
+  background-color: rgba(100, 100, 100, .4);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* makes my header flex and look nice */
+header {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  padding-left:2%;
+  padding-left: 2%;
   padding-right: 2%;
 }
 
-.try-it{
-  background-color: rgba(100, 100, 100, .4);
-height: 100%;
-width: 100%;
-
-position: fixed;
-top:0;
-left:0;
-}
-
-
-nav{
+/* positions my nav tags where I want tem as well as pushes them infront of the gray screen */
+nav {
   display: flex;
-position: relative;
-justify-content: end;
-gap: 10px;
-z-index: 100;
-font-size: 20px;
-color:whitesmoke;
-text-decoration: underline;
-}
-
-#profile{
   position: relative;
-  max-width: 20%;
-  max-height: 10%;
+  justify-content: end;
+  gap: 10px;
   z-index: 100;
-  border-radius: 100%;
-  
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.main{
+/* adds start color to my nav tags */
+a {
+  color: whitesmoke;
+}
+
+/* gives neat glowy effect and a hover effect */
+.nav:hover {
+  color: rgb(57, 58, 58);
+  text-shadow: 0 0 20px #fcfafa, 0 0 30px #1b1b1b, 0 0 40px #1b1b1b, 0 0 50px #1b1b1b, 0 0 60px #1b1b1b, 0 0 70px #1b1b1b, 0 0 80px #1b1b1b;
+}
+
+/* sytles h1 tag and pushes it infornt of the gray screen  */
+h1 {
+  position: relative;
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+/* styles profile picture */
+#profile {
+  position: relative;
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+}
+
+
+.aline {
   display: flex;
-  justify-content: flex-end;
   flex-direction: row;
 }
 
-.content{
-  position: relative;
+.content {
   display: flex;
+  position: relative;
+  color: whitesmoke;
   flex-direction: column;
-  color:whitesmoke;
+  margin-left: 10px;
+  
 }
 
-h1{
-  position: relative;
-  color:whitesmoke;
-  font-size:50px;
-}
-.collum{
+#prework {
   display: flex;
-  flex-direction: column;
+  max-width: 20%;
+  max-height: 20%;
 }
