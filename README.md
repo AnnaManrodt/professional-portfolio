@@ -17,5 +17,5 @@ Thank you to my coding boot camp for giving me the knowledge to complete this ch
 ## Link
 thank you to pixabay for letting me use a free img 
 you can find the background img from this wonderful site [here](https://pixabay.com/illustrations/sunflowers-background-flowers-8256666/)
-To see the deployed version of this page, [click here]
+To see the deployed version of this page, [click here](https://annamanrodt.github.io/professional-portfolio/)
 
