@@ -65,12 +65,13 @@ h1 {
   border-radius: 100%;
 }
 
-
+/* alines my profile img with my main*/
 .aline {
   display: flex;
   flex-direction: row;
 }
 
+/* add atturibes to my main content */
 .content {
   display: flex;
   position: relative;
@@ -81,6 +82,7 @@ h1 {
  font-family: "noto sans";
 }
 
+/* flexes my project imgs */
 .flex-imgs{
   display: flex;
   flex-direction: row;
@@ -88,13 +90,15 @@ h1 {
   
 }
 
+/* gives my first img link attributes */
 #prework {
-  
   max-width: 20%;
   max-height: 20%;
   min-width:  50%;
   min-height: 100%;
 }
+
+/* gives my second img link attributes */
 #homework-1{
   
  max-width: 10%;
@@ -107,7 +111,8 @@ h2{
   text-decoration: underline 2px; 
 }
 
-.footer{
+/* sets my info section to be in a a row */
+.footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
